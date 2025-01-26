@@ -1,4 +1,13 @@
 <?php
+session_start();
+
+if (!empty($_SESSION['login'])) {
+   $_SESSION['login'];
+} else {
+   header('location:login.php');
+}
+
+
 @include 'config.php';
 
 if (isset($_POST['add_product'])) {

@@ -1,6 +1,6 @@
 <header class="header">
    <div class="flex">
-      <a href="#" class="logo">Foodie</a>
+      <a href="#" class="logo">Foodibroo</a>
 
       <nav class="navbar">
          <a href="admin.php">add product</a>
@@ -14,6 +14,8 @@
 
       <a href="cart.php" class="cart">cart <span><?php echo $row_count; ?></span></a>
       <div id="menu-btn" class="fas fa-bars"></div>
+
+      <a href="logout.php" class="logout">Logout <i class="fa-solid fa-right-from-bracket"></i></a>
 
    </div>
 </header>
